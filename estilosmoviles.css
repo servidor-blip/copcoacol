@@ -1,0 +1,25 @@
+estilosmoviles.css 
+@media (max-width: 767px) {
+    /* Ajusta los estilos para pantallas pequeñas aquí */
+    body {
+        font-size: 14px; /* Ejemplo: reduce el tamaño de fuente */
+        padding: 10px; /* Espaciado alrededor del contenido */
+    }
+    
+    img {
+        max-width: 100%; /* Asegúrate de que las imágenes se ajusten a la pantalla */
+        height: auto; /* Mantiene la relación de aspecto */
+    }
+    
+    /* Otros ajustes específicos para móviles */
+    .container {
+        width: 100%; /* Asegúrate de que los contenedores ocupen el ancho completo */
+        padding: 5px; /* Espaciado adicional */
+    }
+    
+    /* Ajustes para otros elementos específicos */
+    .your-element {
+        font-size: 16px; /* Por ejemplo, ajustar el tamaño de fuente */
+        margin: 0; /* Eliminar márgenes si es necesario */
+    }
+}
