@@ -1,8 +1,7 @@
-
 @media (max-width: 767px) {
     /* Ajusta los estilos para pantallas pequeñas aquí */
     body {
-        font-size: 14px; /* Ejemplo: reduce el tamaño de fuente */
+        font-size: 14px; /* Reduce el tamaño de fuente */
         padding: 10px; /* Espaciado alrededor del contenido */
     }
     
@@ -13,13 +12,27 @@
     
     /* Otros ajustes específicos para móviles */
     .container {
-        width: 100%; /* Asegúrate de que los contenedores ocupen el ancho completo */
+        width: 100%; /* Contenedores ocupan el ancho completo */
         padding: 5px; /* Espaciado adicional */
     }
     
     /* Ajustes para otros elementos específicos */
     .your-element {
-        font-size: 16px; /* Por ejemplo, ajustar el tamaño de fuente */
+        font-size: 16px; /* Ajustar el tamaño de fuente */
         margin: 0; /* Eliminar márgenes si es necesario */
     }
+
+    /* Ejemplo: ajustar botones */
+    button {
+        width: 100%; /* Hacer que los botones ocupen el ancho completo */
+        padding: 10px; /* Aumentar el espaciado interno */
+        font-size: 16px; /* Ajustar el tamaño de fuente */
+    }
+
+    /* Ajustes de navegación */
+    nav {
+        display: block; /* Cambiar la visualización según sea necesario */
+        padding: 10px 0; /* Espaciado en la navegación */
+    }
 }
+
